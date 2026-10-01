@@ -5,5 +5,5 @@ Console.WriteLine(CalculateFuel(7, 2, 0));
 static int CalculateFuel(int distance, int fuelPerUnit, int reserve)
 {
     // TODO
-    return 0;
+    return distance * fuelPerUnit + reserve;
 }
